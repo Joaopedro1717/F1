@@ -1,0 +1,92 @@
+#track {
+    height: 700px;
+    width: 1280px;
+}
+
+.car {
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
+    /* animation: moverParaFrente 5s linear infinite; /* Animar o movimento */
+    border-radius: 10px;
+}
+
+.horizontal-line {
+    position: absolute;
+    width: 1280px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+#car-1 {
+    top: 20px;
+    background-color: crimson;
+}
+
+#hl_1 {
+    top: 110px;
+}
+
+#car-2 {
+    top: 150px;
+    background-color: blueviolet;
+}
+
+#hl_2 {
+    top: 240px;
+}
+
+#car-3 {
+    top: 280px;
+    background-color: black;
+}
+
+#hl_3 {
+    top: 370px;
+}
+
+#car-4 {
+    top: 410px;
+    background-color: yellow;
+}
+
+#hl_4 {
+    top: 500px;
+}
+
+#car-5 {
+    top: 540px;
+    background-color: aqua;
+}
+
+
+#panel {
+    position: absolute;
+    top: 220px; /* Ajuste a posição vertical conforme necessário */
+    right: 160px; /* Ajuste a posição horizontal conforme necessário */
+    background-color: rgba(134, 15, 15, 0.8); /* Cor de fundo com transparência */
+    padding: 20px; /* Adiciona espaço ao redor dos elementos dentro do painel */
+    border-radius: 10px; /* Adiciona borda arredondada */
+    
+}
+
+#panel input {
+    display: block;
+    margin-bottom: 10px; /* Adiciona um espaço entre os inputs */
+}
+
+.finish-line {
+    position: absolute;
+    top: 0px; /* Alinhar no topo */
+    right: 570px; /* Alinhar à direita */
+    height: 700px; /* Mesma altura que a pista */
+    width: 25px; /* Largura da linha de chegada */
+    background-color: green; /* Cor da linha de chegada */
+}
+
+#start {
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 15px 30px; /* Ajuste o preenchimento conforme necessário */
+}
