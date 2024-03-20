@@ -128,8 +128,8 @@ let money = 100;
 
 const Bet = (function() {
     async function onStart(e) {
-        const car_number = document.getElementById('car-input').value;
-        const bet_value = document.getElementById('bet-value').value;
+        const car_number = document.getElementById('input').value;
+        const bet_value = document.getElementById('value').value;
 
         if (!bet_value || !car_number) {
             return;

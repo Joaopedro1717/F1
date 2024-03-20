@@ -89,4 +89,5 @@
 #start {
     font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
     padding: 15px 30px; /* Ajuste o preenchimento conforme necessário */
+    border-radius: 10px; /* Adiciona borda arredondada */
 }
